@@ -1,0 +1,111 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #84CDFC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: white;
+    max-width: 720px;
+    /* height: 500px; */
+    padding: 0px 50px;
+    box-shadow: 5px 5px 5px 1px #000;
+    flex-basis: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main h1 {
+    padding-top: 30px;
+}
+
+main div.contenido {
+    display: flex;
+    /* justify-items: center; */
+    flex-wrap: wrap;
+}
+
+main p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+}
+
+main hr {
+    width: 100%;
+    border-right: 1px solid rgb(184, 179, 179);
+}
+
+main h3 {
+    align-self: flex-start;
+}
+
+main div.bloque {
+    display: flex;
+    background: #000;
+    width: 100%;
+    flex-basis: 100%;
+    align-self: flex-start;
+    margin: 10px 0px;
+}
+
+main div.bloque span {
+    font-size: 18px;
+    border: 1px solid rgba(147, 128, 108, 0.25);
+    color: gray;
+    background-color: rgb(211, 205, 205);
+    padding: 5px 10px;
+}
+
+main div.bloque input:nth-child(even) {
+    flex-grow: 1;
+    padding: 6px 0px;
+}
+
+main div.bloque input:nth-child(odd) {
+    flex-grow: 1;
+    padding: 6px 0px;
+}
+main div.bloque button {
+    cursor: pointer;
+    background-color: rgb(211, 205, 205);
+    border: 1px solid rgba(147, 128, 108, 0.25);
+    padding: 5px 10px;
+    font-size: 18px;
+    color: gray;
+}
+
+/* Estilos boton Home */
+main span.home {
+    background: #84CDFC;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin: 20px 0px 40px 0px;
+}
+
+main span.home a {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
